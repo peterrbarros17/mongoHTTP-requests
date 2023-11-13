@@ -1,4 +1,22 @@
+###
 GET  http://localhost:3001/
 
 ###
 GET http://localhost:3001/reviews
+
+###
+GET http://localhost:3001/reviews/650cd3003f1f9a572408153e
+
+###
+POST http://localhost:3001/reviews 
+
+content-type: application/json
+{
+    "id": ,
+    "titulo": "Fortnight",
+    "descricao": "Battle Royale"
+}
+
+
+###
+DELETE http://localhost:3001/reviews/6552a0e3bf69305bef6fcef9
